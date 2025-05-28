@@ -1,0 +1,20 @@
+{
+    "name": "Gyyti",
+    "short_name": "Gyyti",
+    "icons": [
+      {
+        "src": "/logoCloser.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/logoCloser.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#0f3449",
+    "background_color": "#0f3449",
+    "display": "standalone",
+    "start_url": "/"
+  }
