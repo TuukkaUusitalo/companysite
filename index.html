@@ -50,8 +50,8 @@
         <br>
         <br>
         <br>
-        <div class="style">
-            <h2 style="margin-left: 20";>What is Gyyti?</h2>
+        <div id="product_page"  class="style">
+            <h2 style="margin-left: 4rem";>What is Gyyti?</h2>
         </div>
         <p>Gyyti is a mobile application that transforms empty car seats into part of public transportation. 
             It functions as a real-time marketplace that connects drivers and passengers, turning traditional 
@@ -67,8 +67,9 @@
         <div></div>
         <div></div>
         <div></div>
+        <div></div>
     </div>
-    <main id="product_page" class="the_main">
+    <main class="the_main">
         
         <div class="product_content">
             <div class="products">
@@ -113,25 +114,85 @@
             <div>
                 <div class="style">
                     <h2>Contact</h2>
-                    <br>
-                    <br>
-                    <p>Helsinki, Finland</p>
-                    <br>
-                    <br>
-                    <br>
-                    <p>hello@gyyti.com</p>
-                    <p>lauri@gyyti.com</p>
-                    <p>tuukka@gyyti.com</p>
                     <p>Contact us for collaboration or become one of the first valued members of our community!</p>
                     <br>
                     <br>
-                    <br>
+ 
                 </div>
-                <aside>
-                    <img src="map.png" alt="Helsinki map">
-                </aside>
             </div>
         </section>
+
+        <style>
+            .email-form-container {
+              background-color: #1f1f1f;
+              color: #ffffff;
+              padding: 2rem;
+              border-radius: 10px;
+              max-width: 400px;
+              margin: 2rem auto;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+              font-family: 'Segoe UI', sans-serif;
+            }
+          
+            .email-form-container h2 {
+              font-size: 1.5rem;
+              margin-bottom: 1rem;
+              text-align: center;
+              color: #ffffff;
+            }
+          
+            .email-form-container form {
+              display: flex;
+              flex-direction: column;
+            }
+          
+            .email-form-container input[type="email"] {
+              padding: 0.75rem;
+              border: none;
+              border-radius: 5px;
+              margin-bottom: 1rem;
+              background-color: #2c2c2c;
+              color: #ffffff;
+            }
+          
+            .email-form-container input[type="email"]::placeholder {
+              color: #aaaaaa;
+            }
+          
+            .email-form-container button {
+              padding: 0.75rem;
+              background-color: #4caf50;
+              color: white;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              transition: background-color 0.3s ease;
+            }
+          
+            .email-form-container button:hover {
+              background-color: #45a049;
+            }
+          </style>
+          
+          <div class="email-form-container">
+            <h2>Share us your email</h2>
+            <form action="https://formspree.io/f/mjkwnneg" method="POST">
+              <input type="email" name="email" placeholder="email@example.com" required>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+          
+          <section>
+            <div class="style">
+                <p style="font-size: 35;">Or</p>
+                <br>
+                <p>hello@gyyti.com</p>
+                <p>lauri@gyyti.com</p>
+                <p>tuukka@gyyti.com</p>
+                <br>
+            </div>
+          </section>
+
     </footer>
     <br>
     <br>

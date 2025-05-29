@@ -240,19 +240,13 @@ section h2 {
 	color: floralwhite;
 	margin: 0;
 	padding: 2rem;
-	width: 80%;
+	width: 100%;
 	background-color: #181818;
 	flex-wrap: wrap;
-    text-align: left;
+  text-align: left;
 }
 
-aside {
-	justify-content: center;
-	align-items: center;
-	width: 70%;
-	padding: 1rem;
-    box-sizing: border-box;
-}
+
 
 aside img {
 	width: 100%;
@@ -415,6 +409,16 @@ h3 {
    color: floralwhite;
 }
 
+
+.style {
+	color: floralwhite;
+	margin: 0;
+	padding: 2rem;
+	width: 80%;
+	background-color: #181818;
+	flex-wrap: wrap;
+  text-align: left;
+}
 
 
 
