@@ -151,6 +151,96 @@
     <br>
     <br>
     <br>
+
+
+
+    
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #181818;
+        font-family: Arial, sans-serif;
+      }
+    
+      .partners-section {
+        text-align: center;
+        padding: 3rem 1rem;
+        color: floralwhite;
+        overflow: hidden; /* piilottaa kuvan ulkopuolen */
+      }
+    
+      .partners-section h2 {
+        margin-bottom: 2rem;
+        font-size: 2rem;
+      }
+    
+      .image-container {
+        position: relative;
+        width: 100%;
+        height: 200px; /* voit säätää korkeuden */
+        overflow: hidden;
+      }
+    
+      .scrolling-image {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        height: 100%;
+        animation: slide 20s linear infinite;
+        border-radius: 30px;
+        height: 9rem;
+      }
+    
+      /* Animaatio vasemmalta oikealle */
+      @keyframes slide {
+        0% {
+          left: -100%;
+        }
+        50% {
+          left: 0;
+        }
+        100% {
+          left: 100%;
+        }
+      }
+    
+      /* Desktopille skaalautuu leveämmäksi */
+      @media (min-width: 768px) {
+        .image-container {
+          height: 400px;
+        }
+    
+        .partners-section h2 {
+          font-size: 2.5rem;
+        }
+      }
+    
+      /* Mobiilissa otsikko ja kuva pienempiä */
+      @media (max-width: 767px) {
+        .image-container {
+          height: 180px;
+        }
+    
+        .partners-section h2 {
+          font-size: 1.5rem;
+        }
+
+      }
+    </style>
+    
+    <div class="partners-section">
+      <h2>Partners and enablers</h2>
+      <div class="image-container">
+        <img src="HH.jpg" alt="Haaga-Helia" class="scrolling-image" />
+      </div>
+    </div>
+    
+
+    
+
+    
     <footer>
         <section id="contact_page">
             <div>
