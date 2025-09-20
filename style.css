@@ -530,6 +530,9 @@ main {
 	background-color: #181818;
 	background-size: 100%;
 }
+.products:hover {
+  box-shadow: 0 0 16px  #75b0ff;
+}
 
 article img {
 	margin: 0;
